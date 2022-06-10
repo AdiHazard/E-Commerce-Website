@@ -197,7 +197,7 @@ body{
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.15);
     border: 1px solid #cce7d0;
     border-radius: 4px;
-    margin: 15px;
+    margin: 7px;
 
 }
 
@@ -671,6 +671,12 @@ footer .copyright{
     line-height: 25px;
 }
 
+
+/* BLOG PAGE */
+
+#page-header.blog-header{
+    background-image: url(/img/banner/b19.jpg);
+}
 
 /* MEDIA QUERY */
 @media (max-width:799px) {
