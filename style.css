@@ -778,6 +778,59 @@ footer .copyright{
     border-radius: 20px;
 }
 
+/* CONTACT US PAGE */
+
+#contact-det{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-det .det{
+    width: 40%;
+}
+
+#contact-det .det span{
+    font-size: 12px;
+}
+
+#contact-det .det h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact-det .det h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#contact-det .det li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact-det .det i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#contact-det .det p{
+    margin: 0;
+    font-size: 14px;
+}
+
+#contact-det .map{
+    width: 55%;
+    height: 400px;
+}
+
+#contact-det .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
 /* MEDIA QUERY */
 @media (max-width:799px) {
 
