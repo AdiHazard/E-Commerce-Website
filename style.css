@@ -790,11 +790,13 @@ footer .copyright{
     width: 40%;
 }
 
-#contact-det .det span{
+#contact-det .det span,
+#form-det form span{
     font-size: 12px;
 }
 
-#contact-det .det h2{
+#contact-det .det h2,
+#form-det form h2{
     font-size: 26px;
     line-height: 35px;
     padding: 20px 0;
@@ -829,6 +831,61 @@ footer .copyright{
 #contact-det .map iframe{
     width: 100%;
     height: 100%;
+}
+
+#form-det{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 3px solid #e1e1e1;
+}
+
+#form-det form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-det form input,
+#form-det form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+#form-det form button{
+    background-color: #088178;
+    color: white;
+}
+
+#form-det .people div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+
+#form-det .people div img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+#form-det .people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+#form-det .people div p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
 }
 
 /* MEDIA QUERY */
@@ -930,7 +987,18 @@ footer .copyright{
         width: 70%;
     }
 
+    /* CONTACT US */
+
+    #form-det{
+        padding: 40px;
+    }
+
+    #form-det form{
+        width: 50%;
+    }
+
 }
+
 
 @media (max-width: 477px) {
 
@@ -1032,8 +1100,6 @@ footer .copyright{
         width: 100%;
     }
 
-}
-
 /* ABOUT US PAGE */
 
     #about-head{
@@ -1052,3 +1118,4 @@ footer .copyright{
     #about-app .video{
         width: 100%;
     }
+}
